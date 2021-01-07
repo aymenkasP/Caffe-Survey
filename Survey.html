@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe Survey</title>
+
+
+    <link rel="stylesheet" href="cssStyle.css">
+</head>
+<body>
+
+    <!--title-->
+<h1 id="title"  >Caffe Survey</h1>
+
+<!--description-->
+<p id="description" >We work hard to make a difference <br> but we also value our customers' thoughts to help us understand  what we're doing well and not so well.</p>
+
+<!--"survey-form-->
+<form  id="survey-form" >
+    
+    <label for="name" id="name-label" class="input-fld">Name
+
+    </label>
+<input type="text" name="name" id="name" placeholder="Enter your name" required class="input-fld">
+
+<label for="email" id="email-label" >email</label>
+<input type="email" name="email" id="email" placeholder="Enter your email" class="input-fld" required>
+
+<label for="number" id="number-label" >age</label>
+<input type="number" name="number" id="number" min="18" max="60" placeholder="Enter your name age" class="input-fld" required>
+
+<!--dropdown-->
+
+<p>what is your favorite coffee drink</p>
+<select name="dropdown" id="dropdown">
+    <option  disabled selected value>SHOZE</option>
+    <option value="Espresso">Espresso</option>
+    <option value="Cappuccino">Cappuccino</option>
+    <OPtion value="Latté">Latté</OPtion>
+    <OPtion  value="Americano" >Americano</OPtion>
+    <option value="Cold Brew">Cold Brew</option>
+
+
+
+</select>
+<br>
+
+<p>How much sugar do you put in your coffee?</p>
+    <label>
+         <input type="radio" name="user-sugar-put" id="radio" value="I don’t add any sugar"> I don’t add any sugar
+        </label>
+
+        <label>
+            <input type="radio" name="user-sugar-put" id="radio" value="one"> one
+        </label>
+        <label>
+            <input type="radio" name="user-sugar-put" id="radio" value="two">  two
+        </label>
+        <label>
+            <input type="radio" name="user-sugar-put" id="radio" value="more than 5" > more than 5
+        </label>
+
+<p>What coffee won't you try?</p>
+
+<label>
+    <input type="checkbox" name="won't-try" id="" value="FRAPPUCCINO">   FRAPPUCCINO
+</label>
+   
+<label>
+    <input type="checkbox" name="won't-try" id="" value="CARAMEL MACCHIATO"> CARAMEL MACCHIATO
+</label>
+<label>
+    <input type="checkbox" name="won't-try" id="" value="CAFÉ MOCHA"> CAFÉ MOCHA
+</label>
+
+<label>
+    <input type="checkbox" name="won't-try" id="" value="TURKISH COFFEE"> TURKISH COFFEE
+</label>
+<br>
+
+<p>Any comments or suggestions?</p>
+<textarea name="textarea" id="" cols="30" rows="10" placeholder="Enter your comment here...">
+
+</textarea>
+
+<button type="submit" id="submit"> submit </button>
+
+</form>
+
+</body>
+</html>
